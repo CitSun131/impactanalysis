@@ -1,0 +1,3496 @@
+{
+    "./cloned_repo\\.mvn\\wrapper\\MavenWrapperDownloader.java": {
+        "classes": [
+            "MavenWrapperDownloader"
+        ],
+        "methods": [
+            {
+                "name": "main",
+                "class": "MavenWrapperDownloader",
+                "signature": "main(String)",
+                "return_type": "void"
+            },
+            {
+                "name": "downloadFileFromURL",
+                "class": "MavenWrapperDownloader",
+                "signature": "downloadFileFromURL(String, File)",
+                "return_type": "void"
+            },
+            {
+                "name": "getPasswordAuthentication",
+                "class": "MavenWrapperDownloader",
+                "signature": "getPasswordAuthentication()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=PasswordAuthentication, sub_type=None)"
+            }
+        ],
+        "dependencies": [],
+        "call_graph": [
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "System.out",
+                "callee_method": "println",
+                "sequence": 1
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "System.out",
+                "callee_method": "println",
+                "sequence": 2
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "baseDirectory",
+                "callee_method": "getAbsolutePath",
+                "sequence": 3
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "mavenWrapperPropertyFile",
+                "callee_method": "exists",
+                "sequence": 4
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "mavenWrapperProperties",
+                "callee_method": "load",
+                "sequence": 5
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "mavenWrapperProperties",
+                "callee_method": "getProperty",
+                "sequence": 6
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "System.out",
+                "callee_method": "println",
+                "sequence": 7
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "mavenWrapperPropertyFileInputStream",
+                "callee_method": "close",
+                "sequence": 8
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "System.out",
+                "callee_method": "println",
+                "sequence": 9
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "baseDirectory",
+                "callee_method": "getAbsolutePath",
+                "sequence": 10
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "outputFile",
+                "callee_method": "getParentFile",
+                "sequence": 11
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "MavenWrapperDownloader",
+                "callee_method": "exists",
+                "sequence": 12
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "outputFile",
+                "callee_method": "getParentFile",
+                "sequence": 13
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "MavenWrapperDownloader",
+                "callee_method": "mkdirs",
+                "sequence": 14
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "System.out",
+                "callee_method": "println",
+                "sequence": 15
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "outputFile",
+                "callee_method": "getParentFile",
+                "sequence": 16
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "MavenWrapperDownloader",
+                "callee_method": "getAbsolutePath",
+                "sequence": 17
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "System.out",
+                "callee_method": "println",
+                "sequence": 18
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "outputFile",
+                "callee_method": "getAbsolutePath",
+                "sequence": 19
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "MavenWrapperDownloader",
+                "callee_method": "downloadFileFromURL",
+                "sequence": 20
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "System.out",
+                "callee_method": "println",
+                "sequence": 21
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "System",
+                "callee_method": "exit",
+                "sequence": 22
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "System.out",
+                "callee_method": "println",
+                "sequence": 23
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "e",
+                "callee_method": "printStackTrace",
+                "sequence": 24
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "main",
+                "callee_class": "System",
+                "callee_method": "exit",
+                "sequence": 25
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "downloadFileFromURL",
+                "callee_class": "System",
+                "callee_method": "getenv",
+                "sequence": 26
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "downloadFileFromURL",
+                "callee_class": "System",
+                "callee_method": "getenv",
+                "sequence": 27
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "downloadFileFromURL",
+                "callee_class": "System",
+                "callee_method": "getenv",
+                "sequence": 28
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "downloadFileFromURL",
+                "callee_class": "System",
+                "callee_method": "getenv",
+                "sequence": 29
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "downloadFileFromURL",
+                "callee_class": "MavenWrapperDownloader",
+                "callee_method": "toCharArray",
+                "sequence": 30
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "downloadFileFromURL",
+                "callee_class": "Authenticator",
+                "callee_method": "setDefault",
+                "sequence": 31
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "downloadFileFromURL",
+                "callee_class": "Channels",
+                "callee_method": "newChannel",
+                "sequence": 32
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "downloadFileFromURL",
+                "callee_class": "website",
+                "callee_method": "openStream",
+                "sequence": 33
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "downloadFileFromURL",
+                "callee_class": "fos",
+                "callee_method": "getChannel",
+                "sequence": 34
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "downloadFileFromURL",
+                "callee_class": "MavenWrapperDownloader",
+                "callee_method": "transferFrom",
+                "sequence": 35
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "downloadFileFromURL",
+                "callee_class": "fos",
+                "callee_method": "close",
+                "sequence": 36
+            },
+            {
+                "caller_class": "MavenWrapperDownloader",
+                "caller_method": "downloadFileFromURL",
+                "callee_class": "rbc",
+                "callee_method": "close",
+                "sequence": 37
+            }
+        ],
+        "package": ""
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\Application.java": {
+        "classes": [
+            "Application"
+        ],
+        "methods": [
+            {
+                "name": "main",
+                "class": "Application",
+                "signature": "main(String)",
+                "return_type": "void"
+            }
+        ],
+        "dependencies": [
+            "org.springframework.boot.SpringApplication",
+            "org.springframework.boot.autoconfigure.SpringBootApplication"
+        ],
+        "call_graph": [
+            {
+                "caller_class": "Application",
+                "caller_method": "main",
+                "callee_class": "SpringApplication",
+                "callee_method": "run",
+                "sequence": 1
+            }
+        ],
+        "package": "com.example.paul"
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\constants\\constants.java": {
+        "classes": [
+            "constants"
+        ],
+        "methods": [],
+        "dependencies": [],
+        "call_graph": [
+            {
+                "caller_class": "constants",
+                "caller_method": "unknown",
+                "callee_class": "Pattern",
+                "callee_method": "compile",
+                "sequence": 1
+            },
+            {
+                "caller_class": "constants",
+                "caller_method": "unknown",
+                "callee_class": "Pattern",
+                "callee_method": "compile",
+                "sequence": 2
+            }
+        ],
+        "package": "com.example.paul.constants"
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\constants\\ACTION.java": {
+        "classes": [],
+        "methods": [],
+        "dependencies": [],
+        "call_graph": [],
+        "package": "com.example.paul.constants"
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\controllers\\AccountRestController.java": {
+        "classes": [
+            "AccountRestController"
+        ],
+        "methods": [
+            {
+                "name": "checkAccountBalance",
+                "class": "AccountRestController",
+                "signature": "checkAccountBalance(AccountInput)",
+                "return_type": "ReferenceType(arguments=[TypeArgument(pattern_type=?, type=None)], dimensions=[], name=ResponseEntity, sub_type=None)"
+            },
+            {
+                "name": "createAccount",
+                "class": "AccountRestController",
+                "signature": "createAccount(CreateAccountInput)",
+                "return_type": "ReferenceType(arguments=[TypeArgument(pattern_type=?, type=None)], dimensions=[], name=ResponseEntity, sub_type=None)"
+            },
+            {
+                "name": "handleValidationExceptions",
+                "class": "AccountRestController",
+                "signature": "handleValidationExceptions(MethodArgumentNotValidException)",
+                "return_type": "ReferenceType(arguments=[TypeArgument(pattern_type=None, type=ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)), TypeArgument(pattern_type=None, type=ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None))], dimensions=[], name=Map, sub_type=None)"
+            }
+        ],
+        "dependencies": [
+            "com.example.paul.constants.constants",
+            "com.example.paul.models.Account",
+            "com.example.paul.services.AccountService",
+            "com.example.paul.utils.AccountInput",
+            "com.example.paul.utils.CreateAccountInput",
+            "com.example.paul.utils.InputValidator",
+            "org.slf4j.Logger",
+            "org.slf4j.LoggerFactory",
+            "org.springframework.beans.factory.annotation.Autowired",
+            "org.springframework.http.HttpStatus",
+            "org.springframework.http.MediaType",
+            "org.springframework.http.ResponseEntity",
+            "org.springframework.validation.FieldError",
+            "org.springframework.web.bind.MethodArgumentNotValidException",
+            "org.springframework.web.bind.annotation",
+            "javax.validation.Valid"
+        ],
+        "call_graph": [
+            {
+                "caller_class": "AccountRestController",
+                "caller_method": "unknown",
+                "callee_class": "LoggerFactory",
+                "callee_method": "getLogger",
+                "sequence": 1
+            },
+            {
+                "caller_class": "AccountRestController",
+                "caller_method": "checkAccountBalance",
+                "callee_class": "LOGGER",
+                "callee_method": "debug",
+                "sequence": 2
+            },
+            {
+                "caller_class": "AccountRestController",
+                "caller_method": "checkAccountBalance",
+                "callee_class": "InputValidator",
+                "callee_method": "isSearchCriteriaValid",
+                "sequence": 3
+            },
+            {
+                "caller_class": "AccountRestController",
+                "caller_method": "checkAccountBalance",
+                "callee_class": "accountService",
+                "callee_method": "getAccount",
+                "sequence": 4
+            },
+            {
+                "caller_class": "AccountRestController",
+                "caller_method": "checkAccountBalance",
+                "callee_class": "accountInput",
+                "callee_method": "getSortCode",
+                "sequence": 5
+            },
+            {
+                "caller_class": "AccountRestController",
+                "caller_method": "checkAccountBalance",
+                "callee_class": "accountInput",
+                "callee_method": "getAccountNumber",
+                "sequence": 6
+            },
+            {
+                "caller_class": "AccountRestController",
+                "caller_method": "createAccount",
+                "callee_class": "LOGGER",
+                "callee_method": "debug",
+                "sequence": 7
+            },
+            {
+                "caller_class": "AccountRestController",
+                "caller_method": "createAccount",
+                "callee_class": "InputValidator",
+                "callee_method": "isCreateAccountCriteriaValid",
+                "sequence": 8
+            },
+            {
+                "caller_class": "AccountRestController",
+                "caller_method": "createAccount",
+                "callee_class": "accountService",
+                "callee_method": "createAccount",
+                "sequence": 9
+            },
+            {
+                "caller_class": "AccountRestController",
+                "caller_method": "createAccount",
+                "callee_class": "createAccountInput",
+                "callee_method": "getBankName",
+                "sequence": 10
+            },
+            {
+                "caller_class": "AccountRestController",
+                "caller_method": "createAccount",
+                "callee_class": "createAccountInput",
+                "callee_method": "getOwnerName",
+                "sequence": 11
+            },
+            {
+                "caller_class": "AccountRestController",
+                "caller_method": "handleValidationExceptions",
+                "callee_class": "ex",
+                "callee_method": "getBindingResult",
+                "sequence": 12
+            },
+            {
+                "caller_class": "AccountRestController",
+                "caller_method": "handleValidationExceptions",
+                "callee_class": "AccountRestController",
+                "callee_method": "getAllErrors",
+                "sequence": 13
+            },
+            {
+                "caller_class": "AccountRestController",
+                "caller_method": "handleValidationExceptions",
+                "callee_class": "AccountRestController",
+                "callee_method": "forEach",
+                "sequence": 14
+            },
+            {
+                "caller_class": "AccountRestController",
+                "caller_method": "handleValidationExceptions",
+                "callee_class": "error",
+                "callee_method": "getDefaultMessage",
+                "sequence": 15
+            },
+            {
+                "caller_class": "AccountRestController",
+                "caller_method": "handleValidationExceptions",
+                "callee_class": "errors",
+                "callee_method": "put",
+                "sequence": 16
+            }
+        ],
+        "package": "com.example.paul.controllers"
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\controllers\\TransactionRestController.java": {
+        "classes": [
+            "TransactionRestController"
+        ],
+        "methods": [
+            {
+                "name": "makeTransfer",
+                "class": "TransactionRestController",
+                "signature": "makeTransfer(TransactionInput)",
+                "return_type": "ReferenceType(arguments=[TypeArgument(pattern_type=?, type=None)], dimensions=[], name=ResponseEntity, sub_type=None)"
+            },
+            {
+                "name": "withdraw",
+                "class": "TransactionRestController",
+                "signature": "withdraw(WithdrawInput)",
+                "return_type": "ReferenceType(arguments=[TypeArgument(pattern_type=?, type=None)], dimensions=[], name=ResponseEntity, sub_type=None)"
+            },
+            {
+                "name": "deposit",
+                "class": "TransactionRestController",
+                "signature": "deposit(DepositInput)",
+                "return_type": "ReferenceType(arguments=[TypeArgument(pattern_type=?, type=None)], dimensions=[], name=ResponseEntity, sub_type=None)"
+            },
+            {
+                "name": "handleValidationExceptions",
+                "class": "TransactionRestController",
+                "signature": "handleValidationExceptions(MethodArgumentNotValidException)",
+                "return_type": "ReferenceType(arguments=[TypeArgument(pattern_type=None, type=ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)), TypeArgument(pattern_type=None, type=ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None))], dimensions=[], name=Map, sub_type=None)"
+            }
+        ],
+        "dependencies": [
+            "com.example.paul.constants.ACTION",
+            "com.example.paul.models.Account",
+            "com.example.paul.services.AccountService",
+            "com.example.paul.services.TransactionService",
+            "com.example.paul.utils",
+            "org.slf4j.Logger",
+            "org.slf4j.LoggerFactory",
+            "org.springframework.beans.factory.annotation.Autowired",
+            "org.springframework.http.HttpStatus",
+            "org.springframework.http.MediaType",
+            "org.springframework.http.ResponseEntity",
+            "org.springframework.validation.FieldError",
+            "org.springframework.web.bind.MethodArgumentNotValidException",
+            "org.springframework.web.bind.annotation",
+            "javax.validation.Valid",
+            "com.example.paul.constants.constants"
+        ],
+        "call_graph": [
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "unknown",
+                "callee_class": "LoggerFactory",
+                "callee_method": "getLogger",
+                "sequence": 1
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "makeTransfer",
+                "callee_class": "InputValidator",
+                "callee_method": "isSearchTransactionValid",
+                "sequence": 2
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "makeTransfer",
+                "callee_class": "transactionService",
+                "callee_method": "makeTransfer",
+                "sequence": 3
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "withdraw",
+                "callee_class": "LOGGER",
+                "callee_method": "debug",
+                "sequence": 4
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "withdraw",
+                "callee_class": "InputValidator",
+                "callee_method": "isSearchCriteriaValid",
+                "sequence": 5
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "withdraw",
+                "callee_class": "accountService",
+                "callee_method": "getAccount",
+                "sequence": 6
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "withdraw",
+                "callee_class": "withdrawInput",
+                "callee_method": "getSortCode",
+                "sequence": 7
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "withdraw",
+                "callee_class": "withdrawInput",
+                "callee_method": "getAccountNumber",
+                "sequence": 8
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "withdraw",
+                "callee_class": "transactionService",
+                "callee_method": "isAmountAvailable",
+                "sequence": 9
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "withdraw",
+                "callee_class": "withdrawInput",
+                "callee_method": "getAmount",
+                "sequence": 10
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "withdraw",
+                "callee_class": "account",
+                "callee_method": "getCurrentBalance",
+                "sequence": 11
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "withdraw",
+                "callee_class": "transactionService",
+                "callee_method": "updateAccountBalance",
+                "sequence": 12
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "withdraw",
+                "callee_class": "withdrawInput",
+                "callee_method": "getAmount",
+                "sequence": 13
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "deposit",
+                "callee_class": "LOGGER",
+                "callee_method": "debug",
+                "sequence": 14
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "deposit",
+                "callee_class": "InputValidator",
+                "callee_method": "isAccountNoValid",
+                "sequence": 15
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "deposit",
+                "callee_class": "depositInput",
+                "callee_method": "getTargetAccountNo",
+                "sequence": 16
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "deposit",
+                "callee_class": "accountService",
+                "callee_method": "getAccount",
+                "sequence": 17
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "deposit",
+                "callee_class": "depositInput",
+                "callee_method": "getTargetAccountNo",
+                "sequence": 18
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "deposit",
+                "callee_class": "transactionService",
+                "callee_method": "updateAccountBalance",
+                "sequence": 19
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "deposit",
+                "callee_class": "depositInput",
+                "callee_method": "getAmount",
+                "sequence": 20
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "handleValidationExceptions",
+                "callee_class": "ex",
+                "callee_method": "getBindingResult",
+                "sequence": 21
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "handleValidationExceptions",
+                "callee_class": "TransactionRestController",
+                "callee_method": "getAllErrors",
+                "sequence": 22
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "handleValidationExceptions",
+                "callee_class": "TransactionRestController",
+                "callee_method": "forEach",
+                "sequence": 23
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "handleValidationExceptions",
+                "callee_class": "error",
+                "callee_method": "getDefaultMessage",
+                "sequence": 24
+            },
+            {
+                "caller_class": "TransactionRestController",
+                "caller_method": "handleValidationExceptions",
+                "callee_class": "errors",
+                "callee_method": "put",
+                "sequence": 25
+            }
+        ],
+        "package": "com.example.paul.controllers"
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\models\\Account.java": {
+        "classes": [
+            "Account"
+        ],
+        "methods": [
+            {
+                "name": "getId",
+                "class": "Account",
+                "signature": "getId()",
+                "return_type": "BasicType(dimensions=[], name=long)"
+            },
+            {
+                "name": "setId",
+                "class": "Account",
+                "signature": "setId(long)",
+                "return_type": "void"
+            },
+            {
+                "name": "getSortCode",
+                "class": "Account",
+                "signature": "getSortCode()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            },
+            {
+                "name": "setSortCode",
+                "class": "Account",
+                "signature": "setSortCode(String)",
+                "return_type": "void"
+            },
+            {
+                "name": "getAccountNumber",
+                "class": "Account",
+                "signature": "getAccountNumber()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            },
+            {
+                "name": "setAccountNumber",
+                "class": "Account",
+                "signature": "setAccountNumber(String)",
+                "return_type": "void"
+            },
+            {
+                "name": "getCurrentBalance",
+                "class": "Account",
+                "signature": "getCurrentBalance()",
+                "return_type": "BasicType(dimensions=[], name=double)"
+            },
+            {
+                "name": "setCurrentBalance",
+                "class": "Account",
+                "signature": "setCurrentBalance(double)",
+                "return_type": "void"
+            },
+            {
+                "name": "getOwnerName",
+                "class": "Account",
+                "signature": "getOwnerName()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            },
+            {
+                "name": "setOwnerName",
+                "class": "Account",
+                "signature": "setOwnerName(String)",
+                "return_type": "void"
+            },
+            {
+                "name": "getBankName",
+                "class": "Account",
+                "signature": "getBankName()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            },
+            {
+                "name": "setBankName",
+                "class": "Account",
+                "signature": "setBankName(String)",
+                "return_type": "void"
+            },
+            {
+                "name": "getTransactions",
+                "class": "Account",
+                "signature": "getTransactions()",
+                "return_type": "ReferenceType(arguments=[TypeArgument(pattern_type=None, type=ReferenceType(arguments=None, dimensions=[], name=Transaction, sub_type=None))], dimensions=[], name=List, sub_type=None)"
+            },
+            {
+                "name": "setTransactions",
+                "class": "Account",
+                "signature": "setTransactions(List)",
+                "return_type": "void"
+            },
+            {
+                "name": "toString",
+                "class": "Account",
+                "signature": "toString()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            }
+        ],
+        "dependencies": [
+            "javax.persistence.Entity",
+            "javax.persistence.GeneratedValue",
+            "javax.persistence.Id",
+            "javax.persistence.Table"
+        ],
+        "call_graph": [],
+        "package": "com.example.paul.models"
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\models\\Transaction.java": {
+        "classes": [
+            "Transaction"
+        ],
+        "methods": [
+            {
+                "name": "getId",
+                "class": "Transaction",
+                "signature": "getId()",
+                "return_type": "BasicType(dimensions=[], name=long)"
+            },
+            {
+                "name": "setId",
+                "class": "Transaction",
+                "signature": "setId(long)",
+                "return_type": "void"
+            },
+            {
+                "name": "getSourceAccountId",
+                "class": "Transaction",
+                "signature": "getSourceAccountId()",
+                "return_type": "BasicType(dimensions=[], name=long)"
+            },
+            {
+                "name": "setSourceAccountId",
+                "class": "Transaction",
+                "signature": "setSourceAccountId(long)",
+                "return_type": "void"
+            },
+            {
+                "name": "getTargetAccountId",
+                "class": "Transaction",
+                "signature": "getTargetAccountId()",
+                "return_type": "BasicType(dimensions=[], name=long)"
+            },
+            {
+                "name": "setTargetAccountId",
+                "class": "Transaction",
+                "signature": "setTargetAccountId(long)",
+                "return_type": "void"
+            },
+            {
+                "name": "getTargetOwnerName",
+                "class": "Transaction",
+                "signature": "getTargetOwnerName()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            },
+            {
+                "name": "setTargetOwnerName",
+                "class": "Transaction",
+                "signature": "setTargetOwnerName(String)",
+                "return_type": "void"
+            },
+            {
+                "name": "getAmount",
+                "class": "Transaction",
+                "signature": "getAmount()",
+                "return_type": "BasicType(dimensions=[], name=double)"
+            },
+            {
+                "name": "setAmount",
+                "class": "Transaction",
+                "signature": "setAmount(double)",
+                "return_type": "void"
+            },
+            {
+                "name": "getInitiationDate",
+                "class": "Transaction",
+                "signature": "getInitiationDate()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=LocalDateTime, sub_type=None)"
+            },
+            {
+                "name": "setInitiationDate",
+                "class": "Transaction",
+                "signature": "setInitiationDate(LocalDateTime)",
+                "return_type": "void"
+            },
+            {
+                "name": "getCompletionDate",
+                "class": "Transaction",
+                "signature": "getCompletionDate()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=LocalDateTime, sub_type=None)"
+            },
+            {
+                "name": "setCompletionDate",
+                "class": "Transaction",
+                "signature": "setCompletionDate(LocalDateTime)",
+                "return_type": "void"
+            },
+            {
+                "name": "getReference",
+                "class": "Transaction",
+                "signature": "getReference()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            },
+            {
+                "name": "setReference",
+                "class": "Transaction",
+                "signature": "setReference(String)",
+                "return_type": "void"
+            },
+            {
+                "name": "getLatitude",
+                "class": "Transaction",
+                "signature": "getLatitude()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=Double, sub_type=None)"
+            },
+            {
+                "name": "setLatitude",
+                "class": "Transaction",
+                "signature": "setLatitude(Double)",
+                "return_type": "void"
+            },
+            {
+                "name": "getLongitude",
+                "class": "Transaction",
+                "signature": "getLongitude()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=Double, sub_type=None)"
+            },
+            {
+                "name": "setLongitude",
+                "class": "Transaction",
+                "signature": "setLongitude(Double)",
+                "return_type": "void"
+            },
+            {
+                "name": "toString",
+                "class": "Transaction",
+                "signature": "toString()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            }
+        ],
+        "dependencies": [
+            "javax.persistence"
+        ],
+        "call_graph": [],
+        "package": "com.example.paul.models"
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\repositories\\AccountRepository.java": {
+        "classes": [],
+        "methods": [],
+        "dependencies": [
+            "com.example.paul.models.Account",
+            "org.springframework.data.jpa.repository.JpaRepository"
+        ],
+        "call_graph": [],
+        "package": "com.example.paul.repositories"
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\services\\AccountService.java": {
+        "classes": [
+            "AccountService"
+        ],
+        "methods": [
+            {
+                "name": "getAccount",
+                "class": "AccountService",
+                "signature": "getAccount(String, String)",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=Account, sub_type=None)"
+            },
+            {
+                "name": "getAccount",
+                "class": "AccountService",
+                "signature": "getAccount(String)",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=Account, sub_type=None)"
+            },
+            {
+                "name": "createAccount",
+                "class": "AccountService",
+                "signature": "createAccount(String, String)",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=Account, sub_type=None)"
+            }
+        ],
+        "dependencies": [
+            "com.example.paul.models.Account",
+            "com.example.paul.repositories.AccountRepository",
+            "com.example.paul.repositories.TransactionRepository",
+            "com.example.paul.utils.CodeGenerator",
+            "org.springframework.stereotype.Service"
+        ],
+        "call_graph": [
+            {
+                "caller_class": "AccountService",
+                "caller_method": "getAccount",
+                "callee_class": "accountRepository",
+                "callee_method": "findBySortCodeAndAccountNumber",
+                "sequence": 1
+            },
+            {
+                "caller_class": "AccountService",
+                "caller_method": "getAccount",
+                "callee_class": "account",
+                "callee_method": "ifPresent",
+                "sequence": 2
+            },
+            {
+                "caller_class": "AccountService",
+                "caller_method": "getAccount",
+                "callee_class": "value",
+                "callee_method": "setTransactions",
+                "sequence": 3
+            },
+            {
+                "caller_class": "AccountService",
+                "caller_method": "getAccount",
+                "callee_class": "transactionRepository",
+                "callee_method": "findBySourceAccountIdOrderByInitiationDate",
+                "sequence": 4
+            },
+            {
+                "caller_class": "AccountService",
+                "caller_method": "getAccount",
+                "callee_class": "value",
+                "callee_method": "getId",
+                "sequence": 5
+            },
+            {
+                "caller_class": "AccountService",
+                "caller_method": "getAccount",
+                "callee_class": "account",
+                "callee_method": "orElse",
+                "sequence": 6
+            },
+            {
+                "caller_class": "AccountService",
+                "caller_method": "getAccount",
+                "callee_class": "accountRepository",
+                "callee_method": "findByAccountNumber",
+                "sequence": 7
+            },
+            {
+                "caller_class": "AccountService",
+                "caller_method": "getAccount",
+                "callee_class": "account",
+                "callee_method": "orElse",
+                "sequence": 8
+            },
+            {
+                "caller_class": "AccountService",
+                "caller_method": "createAccount",
+                "callee_class": "codeGenerator",
+                "callee_method": "generateSortCode",
+                "sequence": 9
+            },
+            {
+                "caller_class": "AccountService",
+                "caller_method": "createAccount",
+                "callee_class": "codeGenerator",
+                "callee_method": "generateAccountNumber",
+                "sequence": 10
+            },
+            {
+                "caller_class": "AccountService",
+                "caller_method": "createAccount",
+                "callee_class": "accountRepository",
+                "callee_method": "save",
+                "sequence": 11
+            }
+        ],
+        "package": "com.example.paul.services"
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\repositories\\TransactionRepository.java": {
+        "classes": [],
+        "methods": [],
+        "dependencies": [
+            "com.example.paul.models.Transaction",
+            "org.springframework.data.jpa.repository.JpaRepository"
+        ],
+        "call_graph": [],
+        "package": "com.example.paul.repositories"
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\services\\TransactionService.java": {
+        "classes": [
+            "TransactionService"
+        ],
+        "methods": [
+            {
+                "name": "makeTransfer",
+                "class": "TransactionService",
+                "signature": "makeTransfer(TransactionInput)",
+                "return_type": "BasicType(dimensions=[], name=boolean)"
+            },
+            {
+                "name": "updateAccountBalance",
+                "class": "TransactionService",
+                "signature": "updateAccountBalance(Account, double, ACTION)",
+                "return_type": "void"
+            },
+            {
+                "name": "isAmountAvailable",
+                "class": "TransactionService",
+                "signature": "isAmountAvailable(double, double)",
+                "return_type": "BasicType(dimensions=[], name=boolean)"
+            }
+        ],
+        "dependencies": [
+            "com.example.paul.constants.ACTION",
+            "com.example.paul.models.Account",
+            "com.example.paul.models.Transaction",
+            "com.example.paul.repositories.AccountRepository",
+            "com.example.paul.repositories.TransactionRepository",
+            "com.example.paul.utils.TransactionInput",
+            "org.springframework.beans.factory.annotation.Autowired",
+            "org.springframework.stereotype.Service"
+        ],
+        "call_graph": [
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transactionInput",
+                "callee_method": "getSourceAccount",
+                "sequence": 1
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "TransactionService",
+                "callee_method": "getSortCode",
+                "sequence": 2
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transactionInput",
+                "callee_method": "getSourceAccount",
+                "sequence": 3
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "TransactionService",
+                "callee_method": "getAccountNumber",
+                "sequence": 4
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "accountRepository",
+                "callee_method": "findBySortCodeAndAccountNumber",
+                "sequence": 5
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transactionInput",
+                "callee_method": "getTargetAccount",
+                "sequence": 6
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "TransactionService",
+                "callee_method": "getSortCode",
+                "sequence": 7
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transactionInput",
+                "callee_method": "getTargetAccount",
+                "sequence": 8
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "TransactionService",
+                "callee_method": "getAccountNumber",
+                "sequence": 9
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "accountRepository",
+                "callee_method": "findBySortCodeAndAccountNumber",
+                "sequence": 10
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "sourceAccount",
+                "callee_method": "isPresent",
+                "sequence": 11
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "targetAccount",
+                "callee_method": "isPresent",
+                "sequence": 12
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "TransactionService",
+                "callee_method": "isAmountAvailable",
+                "sequence": 13
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transactionInput",
+                "callee_method": "getAmount",
+                "sequence": 14
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "sourceAccount",
+                "callee_method": "get",
+                "sequence": 15
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "TransactionService",
+                "callee_method": "getCurrentBalance",
+                "sequence": 16
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transaction",
+                "callee_method": "setAmount",
+                "sequence": 17
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transactionInput",
+                "callee_method": "getAmount",
+                "sequence": 18
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transaction",
+                "callee_method": "setSourceAccountId",
+                "sequence": 19
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "sourceAccount",
+                "callee_method": "get",
+                "sequence": 20
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "TransactionService",
+                "callee_method": "getId",
+                "sequence": 21
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transaction",
+                "callee_method": "setTargetAccountId",
+                "sequence": 22
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "targetAccount",
+                "callee_method": "get",
+                "sequence": 23
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "TransactionService",
+                "callee_method": "getId",
+                "sequence": 24
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transaction",
+                "callee_method": "setTargetOwnerName",
+                "sequence": 25
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "targetAccount",
+                "callee_method": "get",
+                "sequence": 26
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "TransactionService",
+                "callee_method": "getOwnerName",
+                "sequence": 27
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transaction",
+                "callee_method": "setInitiationDate",
+                "sequence": 28
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "LocalDateTime",
+                "callee_method": "now",
+                "sequence": 29
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transaction",
+                "callee_method": "setCompletionDate",
+                "sequence": 30
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "LocalDateTime",
+                "callee_method": "now",
+                "sequence": 31
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transaction",
+                "callee_method": "setReference",
+                "sequence": 32
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transactionInput",
+                "callee_method": "getReference",
+                "sequence": 33
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transaction",
+                "callee_method": "setLatitude",
+                "sequence": 34
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transactionInput",
+                "callee_method": "getLatitude",
+                "sequence": 35
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transaction",
+                "callee_method": "setLongitude",
+                "sequence": 36
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transactionInput",
+                "callee_method": "getLongitude",
+                "sequence": 37
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "TransactionService",
+                "callee_method": "updateAccountBalance",
+                "sequence": 38
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "sourceAccount",
+                "callee_method": "get",
+                "sequence": 39
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transactionInput",
+                "callee_method": "getAmount",
+                "sequence": 40
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "makeTransfer",
+                "callee_class": "transactionRepository",
+                "callee_method": "save",
+                "sequence": 41
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "updateAccountBalance",
+                "callee_class": "account",
+                "callee_method": "setCurrentBalance",
+                "sequence": 42
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "updateAccountBalance",
+                "callee_class": "account",
+                "callee_method": "getCurrentBalance",
+                "sequence": 43
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "updateAccountBalance",
+                "callee_class": "account",
+                "callee_method": "setCurrentBalance",
+                "sequence": 44
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "updateAccountBalance",
+                "callee_class": "account",
+                "callee_method": "getCurrentBalance",
+                "sequence": 45
+            },
+            {
+                "caller_class": "TransactionService",
+                "caller_method": "updateAccountBalance",
+                "callee_class": "accountRepository",
+                "callee_method": "save",
+                "sequence": 46
+            }
+        ],
+        "package": "com.example.paul.services"
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\utils\\AccountInput.java": {
+        "classes": [
+            "AccountInput"
+        ],
+        "methods": [
+            {
+                "name": "getSortCode",
+                "class": "AccountInput",
+                "signature": "getSortCode()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            },
+            {
+                "name": "setSortCode",
+                "class": "AccountInput",
+                "signature": "setSortCode(String)",
+                "return_type": "void"
+            },
+            {
+                "name": "getAccountNumber",
+                "class": "AccountInput",
+                "signature": "getAccountNumber()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            },
+            {
+                "name": "setAccountNumber",
+                "class": "AccountInput",
+                "signature": "setAccountNumber(String)",
+                "return_type": "void"
+            },
+            {
+                "name": "toString",
+                "class": "AccountInput",
+                "signature": "toString()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            },
+            {
+                "name": "equals",
+                "class": "AccountInput",
+                "signature": "equals(Object)",
+                "return_type": "BasicType(dimensions=[], name=boolean)"
+            },
+            {
+                "name": "hashCode",
+                "class": "AccountInput",
+                "signature": "hashCode()",
+                "return_type": "BasicType(dimensions=[], name=int)"
+            }
+        ],
+        "dependencies": [
+            "javax.validation.constraints.NotBlank"
+        ],
+        "call_graph": [
+            {
+                "caller_class": "AccountInput",
+                "caller_method": "equals",
+                "callee_class": "AccountInput",
+                "callee_method": "getClass",
+                "sequence": 1
+            },
+            {
+                "caller_class": "AccountInput",
+                "caller_method": "equals",
+                "callee_class": "o",
+                "callee_method": "getClass",
+                "sequence": 2
+            },
+            {
+                "caller_class": "AccountInput",
+                "caller_method": "equals",
+                "callee_class": "Objects",
+                "callee_method": "equals",
+                "sequence": 3
+            },
+            {
+                "caller_class": "AccountInput",
+                "caller_method": "equals",
+                "callee_class": "Objects",
+                "callee_method": "equals",
+                "sequence": 4
+            },
+            {
+                "caller_class": "AccountInput",
+                "caller_method": "hashCode",
+                "callee_class": "Objects",
+                "callee_method": "hash",
+                "sequence": 5
+            }
+        ],
+        "package": "com.example.paul.utils"
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\utils\\CodeGenerator.java": {
+        "classes": [
+            "CodeGenerator"
+        ],
+        "methods": [
+            {
+                "name": "generateSortCode",
+                "class": "CodeGenerator",
+                "signature": "generateSortCode()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            },
+            {
+                "name": "generateAccountNumber",
+                "class": "CodeGenerator",
+                "signature": "generateAccountNumber()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            }
+        ],
+        "dependencies": [
+            "com.mifmif.common.regex.Generex",
+            "com.example.paul.constants.constants.ACCOUNT_NUMBER_PATTERN_STRING",
+            "com.example.paul.constants.constants.SORT_CODE_PATTERN_STRING"
+        ],
+        "call_graph": [
+            {
+                "caller_class": "CodeGenerator",
+                "caller_method": "generateSortCode",
+                "callee_class": "sortCodeGenerex",
+                "callee_method": "random",
+                "sequence": 1
+            },
+            {
+                "caller_class": "CodeGenerator",
+                "caller_method": "generateAccountNumber",
+                "callee_class": "accountNumberGenerex",
+                "callee_method": "random",
+                "sequence": 2
+            }
+        ],
+        "package": "com.example.paul.utils"
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\utils\\CreateAccountInput.java": {
+        "classes": [
+            "CreateAccountInput"
+        ],
+        "methods": [
+            {
+                "name": "getBankName",
+                "class": "CreateAccountInput",
+                "signature": "getBankName()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            },
+            {
+                "name": "setBankName",
+                "class": "CreateAccountInput",
+                "signature": "setBankName(String)",
+                "return_type": "void"
+            },
+            {
+                "name": "getOwnerName",
+                "class": "CreateAccountInput",
+                "signature": "getOwnerName()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            },
+            {
+                "name": "setOwnerName",
+                "class": "CreateAccountInput",
+                "signature": "setOwnerName(String)",
+                "return_type": "void"
+            },
+            {
+                "name": "toString",
+                "class": "CreateAccountInput",
+                "signature": "toString()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            },
+            {
+                "name": "equals",
+                "class": "CreateAccountInput",
+                "signature": "equals(Object)",
+                "return_type": "BasicType(dimensions=[], name=boolean)"
+            },
+            {
+                "name": "hashCode",
+                "class": "CreateAccountInput",
+                "signature": "hashCode()",
+                "return_type": "BasicType(dimensions=[], name=int)"
+            }
+        ],
+        "dependencies": [
+            "javax.validation.constraints.NotBlank"
+        ],
+        "call_graph": [
+            {
+                "caller_class": "CreateAccountInput",
+                "caller_method": "equals",
+                "callee_class": "CreateAccountInput",
+                "callee_method": "getClass",
+                "sequence": 1
+            },
+            {
+                "caller_class": "CreateAccountInput",
+                "caller_method": "equals",
+                "callee_class": "o",
+                "callee_method": "getClass",
+                "sequence": 2
+            },
+            {
+                "caller_class": "CreateAccountInput",
+                "caller_method": "equals",
+                "callee_class": "Objects",
+                "callee_method": "equals",
+                "sequence": 3
+            },
+            {
+                "caller_class": "CreateAccountInput",
+                "caller_method": "equals",
+                "callee_class": "Objects",
+                "callee_method": "equals",
+                "sequence": 4
+            },
+            {
+                "caller_class": "CreateAccountInput",
+                "caller_method": "hashCode",
+                "callee_class": "Objects",
+                "callee_method": "hash",
+                "sequence": 5
+            }
+        ],
+        "package": "com.example.paul.utils"
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\utils\\DepositInput.java": {
+        "classes": [
+            "DepositInput"
+        ],
+        "methods": [
+            {
+                "name": "getTargetAccountNo",
+                "class": "DepositInput",
+                "signature": "getTargetAccountNo()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            },
+            {
+                "name": "setTargetAccountNo",
+                "class": "DepositInput",
+                "signature": "setTargetAccountNo(String)",
+                "return_type": "void"
+            },
+            {
+                "name": "getAmount",
+                "class": "DepositInput",
+                "signature": "getAmount()",
+                "return_type": "BasicType(dimensions=[], name=double)"
+            },
+            {
+                "name": "setAmount",
+                "class": "DepositInput",
+                "signature": "setAmount(double)",
+                "return_type": "void"
+            },
+            {
+                "name": "toString",
+                "class": "DepositInput",
+                "signature": "toString()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            },
+            {
+                "name": "equals",
+                "class": "DepositInput",
+                "signature": "equals(Object)",
+                "return_type": "BasicType(dimensions=[], name=boolean)"
+            },
+            {
+                "name": "hashCode",
+                "class": "DepositInput",
+                "signature": "hashCode()",
+                "return_type": "BasicType(dimensions=[], name=int)"
+            }
+        ],
+        "dependencies": [
+            "javax.validation.constraints.NotBlank",
+            "javax.validation.constraints.Positive"
+        ],
+        "call_graph": [
+            {
+                "caller_class": "DepositInput",
+                "caller_method": "equals",
+                "callee_class": "DepositInput",
+                "callee_method": "getClass",
+                "sequence": 1
+            },
+            {
+                "caller_class": "DepositInput",
+                "caller_method": "equals",
+                "callee_class": "o",
+                "callee_method": "getClass",
+                "sequence": 2
+            },
+            {
+                "caller_class": "DepositInput",
+                "caller_method": "equals",
+                "callee_class": "Objects",
+                "callee_method": "equals",
+                "sequence": 3
+            },
+            {
+                "caller_class": "DepositInput",
+                "caller_method": "equals",
+                "callee_class": "Objects",
+                "callee_method": "equals",
+                "sequence": 4
+            },
+            {
+                "caller_class": "DepositInput",
+                "caller_method": "hashCode",
+                "callee_class": "Objects",
+                "callee_method": "hash",
+                "sequence": 5
+            }
+        ],
+        "package": "com.example.paul.utils"
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\utils\\InputValidator.java": {
+        "classes": [
+            "InputValidator"
+        ],
+        "methods": [
+            {
+                "name": "isSearchCriteriaValid",
+                "class": "InputValidator",
+                "signature": "isSearchCriteriaValid(AccountInput)",
+                "return_type": "BasicType(dimensions=[], name=boolean)"
+            },
+            {
+                "name": "isAccountNoValid",
+                "class": "InputValidator",
+                "signature": "isAccountNoValid(String)",
+                "return_type": "BasicType(dimensions=[], name=boolean)"
+            },
+            {
+                "name": "isCreateAccountCriteriaValid",
+                "class": "InputValidator",
+                "signature": "isCreateAccountCriteriaValid(CreateAccountInput)",
+                "return_type": "BasicType(dimensions=[], name=boolean)"
+            },
+            {
+                "name": "isSearchTransactionValid",
+                "class": "InputValidator",
+                "signature": "isSearchTransactionValid(TransactionInput)",
+                "return_type": "BasicType(dimensions=[], name=boolean)"
+            }
+        ],
+        "dependencies": [
+            "com.example.paul.constants.constants"
+        ],
+        "call_graph": [
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isSearchCriteriaValid",
+                "callee_class": "constants.SORT_CODE_PATTERN",
+                "callee_method": "matcher",
+                "sequence": 1
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isSearchCriteriaValid",
+                "callee_class": "InputValidator",
+                "callee_method": "find",
+                "sequence": 2
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isSearchCriteriaValid",
+                "callee_class": "accountInput",
+                "callee_method": "getSortCode",
+                "sequence": 3
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isSearchCriteriaValid",
+                "callee_class": "constants.ACCOUNT_NUMBER_PATTERN",
+                "callee_method": "matcher",
+                "sequence": 4
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isSearchCriteriaValid",
+                "callee_class": "InputValidator",
+                "callee_method": "find",
+                "sequence": 5
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isSearchCriteriaValid",
+                "callee_class": "accountInput",
+                "callee_method": "getAccountNumber",
+                "sequence": 6
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isAccountNoValid",
+                "callee_class": "constants.ACCOUNT_NUMBER_PATTERN",
+                "callee_method": "matcher",
+                "sequence": 7
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isAccountNoValid",
+                "callee_class": "InputValidator",
+                "callee_method": "find",
+                "sequence": 8
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isCreateAccountCriteriaValid",
+                "callee_class": "createAccountInput",
+                "callee_method": "getBankName",
+                "sequence": 9
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isCreateAccountCriteriaValid",
+                "callee_class": "InputValidator",
+                "callee_method": "isBlank",
+                "sequence": 10
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isCreateAccountCriteriaValid",
+                "callee_class": "createAccountInput",
+                "callee_method": "getOwnerName",
+                "sequence": 11
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isCreateAccountCriteriaValid",
+                "callee_class": "InputValidator",
+                "callee_method": "isBlank",
+                "sequence": 12
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isSearchTransactionValid",
+                "callee_class": "InputValidator",
+                "callee_method": "isSearchCriteriaValid",
+                "sequence": 13
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isSearchTransactionValid",
+                "callee_class": "transactionInput",
+                "callee_method": "getSourceAccount",
+                "sequence": 14
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isSearchTransactionValid",
+                "callee_class": "InputValidator",
+                "callee_method": "isSearchCriteriaValid",
+                "sequence": 15
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isSearchTransactionValid",
+                "callee_class": "transactionInput",
+                "callee_method": "getTargetAccount",
+                "sequence": 16
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isSearchTransactionValid",
+                "callee_class": "transactionInput",
+                "callee_method": "getSourceAccount",
+                "sequence": 17
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isSearchTransactionValid",
+                "callee_class": "InputValidator",
+                "callee_method": "equals",
+                "sequence": 18
+            },
+            {
+                "caller_class": "InputValidator",
+                "caller_method": "isSearchTransactionValid",
+                "callee_class": "transactionInput",
+                "callee_method": "getTargetAccount",
+                "sequence": 19
+            }
+        ],
+        "package": "com.example.paul.utils"
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\utils\\TransactionInput.java": {
+        "classes": [
+            "TransactionInput"
+        ],
+        "methods": [
+            {
+                "name": "getSourceAccount",
+                "class": "TransactionInput",
+                "signature": "getSourceAccount()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=AccountInput, sub_type=None)"
+            },
+            {
+                "name": "setSourceAccount",
+                "class": "TransactionInput",
+                "signature": "setSourceAccount(AccountInput)",
+                "return_type": "void"
+            },
+            {
+                "name": "getTargetAccount",
+                "class": "TransactionInput",
+                "signature": "getTargetAccount()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=AccountInput, sub_type=None)"
+            },
+            {
+                "name": "setTargetAccount",
+                "class": "TransactionInput",
+                "signature": "setTargetAccount(AccountInput)",
+                "return_type": "void"
+            },
+            {
+                "name": "getAmount",
+                "class": "TransactionInput",
+                "signature": "getAmount()",
+                "return_type": "BasicType(dimensions=[], name=double)"
+            },
+            {
+                "name": "setAmount",
+                "class": "TransactionInput",
+                "signature": "setAmount(double)",
+                "return_type": "void"
+            },
+            {
+                "name": "getReference",
+                "class": "TransactionInput",
+                "signature": "getReference()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            },
+            {
+                "name": "setReference",
+                "class": "TransactionInput",
+                "signature": "setReference(String)",
+                "return_type": "void"
+            },
+            {
+                "name": "getLatitude",
+                "class": "TransactionInput",
+                "signature": "getLatitude()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=Double, sub_type=None)"
+            },
+            {
+                "name": "setLatitude",
+                "class": "TransactionInput",
+                "signature": "setLatitude(Double)",
+                "return_type": "void"
+            },
+            {
+                "name": "getLongitude",
+                "class": "TransactionInput",
+                "signature": "getLongitude()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=Double, sub_type=None)"
+            },
+            {
+                "name": "setLongitude",
+                "class": "TransactionInput",
+                "signature": "setLongitude(Double)",
+                "return_type": "void"
+            },
+            {
+                "name": "toString",
+                "class": "TransactionInput",
+                "signature": "toString()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            }
+        ],
+        "dependencies": [
+            "javax.validation.constraints.Max",
+            "javax.validation.constraints.Min",
+            "javax.validation.constraints.Positive"
+        ],
+        "call_graph": [],
+        "package": "com.example.paul.utils"
+    },
+    "./cloned_repo\\src\\main\\java\\com\\example\\paul\\utils\\WithdrawInput.java": {
+        "classes": [
+            "WithdrawInput"
+        ],
+        "methods": [
+            {
+                "name": "getAmount",
+                "class": "WithdrawInput",
+                "signature": "getAmount()",
+                "return_type": "BasicType(dimensions=[], name=double)"
+            },
+            {
+                "name": "setAmount",
+                "class": "WithdrawInput",
+                "signature": "setAmount(double)",
+                "return_type": "void"
+            },
+            {
+                "name": "toString",
+                "class": "WithdrawInput",
+                "signature": "toString()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=String, sub_type=None)"
+            },
+            {
+                "name": "equals",
+                "class": "WithdrawInput",
+                "signature": "equals(Object)",
+                "return_type": "BasicType(dimensions=[], name=boolean)"
+            },
+            {
+                "name": "hashCode",
+                "class": "WithdrawInput",
+                "signature": "hashCode()",
+                "return_type": "BasicType(dimensions=[], name=int)"
+            }
+        ],
+        "dependencies": [
+            "javax.validation.constraints.Positive"
+        ],
+        "call_graph": [
+            {
+                "caller_class": "WithdrawInput",
+                "caller_method": "equals",
+                "callee_class": "WithdrawInput",
+                "callee_method": "getClass",
+                "sequence": 1
+            },
+            {
+                "caller_class": "WithdrawInput",
+                "caller_method": "equals",
+                "callee_class": "o",
+                "callee_method": "getClass",
+                "sequence": 2
+            },
+            {
+                "caller_class": "WithdrawInput",
+                "caller_method": "equals",
+                "callee_class": "Objects",
+                "callee_method": "equals",
+                "sequence": 3
+            },
+            {
+                "caller_class": "WithdrawInput",
+                "caller_method": "equals",
+                "callee_class": "Objects",
+                "callee_method": "equals",
+                "sequence": 4
+            },
+            {
+                "caller_class": "WithdrawInput",
+                "caller_method": "equals",
+                "callee_class": "Objects",
+                "callee_method": "equals",
+                "sequence": 5
+            },
+            {
+                "caller_class": "WithdrawInput",
+                "caller_method": "hashCode",
+                "callee_class": "Objects",
+                "callee_method": "hash",
+                "sequence": 6
+            }
+        ],
+        "package": "com.example.paul.utils"
+    },
+    "./cloned_repo\\src\\test\\java\\com\\example\\paul\\integration\\CheckBalanceIntegrationTest.java": {
+        "classes": [
+            "CheckBalanceIntegrationTest"
+        ],
+        "methods": [
+            {
+                "name": "givenAccountDetails_whenCheckingBalance_thenVerifyAccountCorrect",
+                "class": "CheckBalanceIntegrationTest",
+                "signature": "givenAccountDetails_whenCheckingBalance_thenVerifyAccountCorrect()",
+                "return_type": "void"
+            }
+        ],
+        "dependencies": [
+            "com.example.paul.controllers.AccountRestController",
+            "com.example.paul.models.Account",
+            "com.example.paul.utils.AccountInput",
+            "org.junit.jupiter.api.Test",
+            "org.springframework.beans.factory.annotation.Autowired",
+            "org.springframework.boot.test.context.SpringBootTest",
+            "org.springframework.test.context.ActiveProfiles",
+            "org.assertj.core.api.Assertions.assertThat"
+        ],
+        "call_graph": [
+            {
+                "caller_class": "CheckBalanceIntegrationTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyAccountCorrect",
+                "callee_class": "input",
+                "callee_method": "setSortCode",
+                "sequence": 1
+            },
+            {
+                "caller_class": "CheckBalanceIntegrationTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyAccountCorrect",
+                "callee_class": "input",
+                "callee_method": "setAccountNumber",
+                "sequence": 2
+            },
+            {
+                "caller_class": "CheckBalanceIntegrationTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyAccountCorrect",
+                "callee_class": "accountRestController",
+                "callee_method": "checkAccountBalance",
+                "sequence": 3
+            },
+            {
+                "caller_class": "CheckBalanceIntegrationTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyAccountCorrect",
+                "callee_class": "CheckBalanceIntegrationTest",
+                "callee_method": "getBody",
+                "sequence": 4
+            },
+            {
+                "caller_class": "CheckBalanceIntegrationTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyAccountCorrect",
+                "callee_class": "CheckBalanceIntegrationTest",
+                "callee_method": "assertThat",
+                "sequence": 5
+            },
+            {
+                "caller_class": "CheckBalanceIntegrationTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyAccountCorrect",
+                "callee_class": "CheckBalanceIntegrationTest",
+                "callee_method": "isNotNull",
+                "sequence": 6
+            },
+            {
+                "caller_class": "CheckBalanceIntegrationTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyAccountCorrect",
+                "callee_class": "CheckBalanceIntegrationTest",
+                "callee_method": "assertThat",
+                "sequence": 7
+            },
+            {
+                "caller_class": "CheckBalanceIntegrationTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyAccountCorrect",
+                "callee_class": "CheckBalanceIntegrationTest",
+                "callee_method": "isEqualTo",
+                "sequence": 8
+            },
+            {
+                "caller_class": "CheckBalanceIntegrationTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyAccountCorrect",
+                "callee_class": "account",
+                "callee_method": "getOwnerName",
+                "sequence": 9
+            },
+            {
+                "caller_class": "CheckBalanceIntegrationTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyAccountCorrect",
+                "callee_class": "CheckBalanceIntegrationTest",
+                "callee_method": "assertThat",
+                "sequence": 10
+            },
+            {
+                "caller_class": "CheckBalanceIntegrationTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyAccountCorrect",
+                "callee_class": "CheckBalanceIntegrationTest",
+                "callee_method": "isEqualTo",
+                "sequence": 11
+            },
+            {
+                "caller_class": "CheckBalanceIntegrationTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyAccountCorrect",
+                "callee_class": "account",
+                "callee_method": "getSortCode",
+                "sequence": 12
+            },
+            {
+                "caller_class": "CheckBalanceIntegrationTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyAccountCorrect",
+                "callee_class": "CheckBalanceIntegrationTest",
+                "callee_method": "assertThat",
+                "sequence": 13
+            },
+            {
+                "caller_class": "CheckBalanceIntegrationTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyAccountCorrect",
+                "callee_class": "CheckBalanceIntegrationTest",
+                "callee_method": "isEqualTo",
+                "sequence": 14
+            },
+            {
+                "caller_class": "CheckBalanceIntegrationTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyAccountCorrect",
+                "callee_class": "account",
+                "callee_method": "getAccountNumber",
+                "sequence": 15
+            }
+        ],
+        "package": "com.example.paul.integration"
+    },
+    "./cloned_repo\\src\\test\\java\\com\\example\\paul\\integration\\MakeTransferIntegrationTest.java": {
+        "classes": [
+            "MakeTransferIntegrationTest"
+        ],
+        "methods": [
+            {
+                "name": "givenTransactionDetails_whenMakeTransaction_thenVerifyTransactionIsProcessed",
+                "class": "MakeTransferIntegrationTest",
+                "signature": "givenTransactionDetails_whenMakeTransaction_thenVerifyTransactionIsProcessed()",
+                "return_type": "void"
+            }
+        ],
+        "dependencies": [
+            "com.example.paul.controllers.TransactionRestController",
+            "com.example.paul.utils.AccountInput",
+            "com.example.paul.utils.TransactionInput",
+            "org.junit.jupiter.api.Test",
+            "org.springframework.beans.factory.annotation.Autowired",
+            "org.springframework.boot.test.context.SpringBootTest",
+            "org.springframework.test.context.ActiveProfiles",
+            "org.assertj.core.api.Assertions.assertThat"
+        ],
+        "call_graph": [
+            {
+                "caller_class": "MakeTransferIntegrationTest",
+                "caller_method": "givenTransactionDetails_whenMakeTransaction_thenVerifyTransactionIsProcessed",
+                "callee_class": "sourceAccount",
+                "callee_method": "setSortCode",
+                "sequence": 1
+            },
+            {
+                "caller_class": "MakeTransferIntegrationTest",
+                "caller_method": "givenTransactionDetails_whenMakeTransaction_thenVerifyTransactionIsProcessed",
+                "callee_class": "sourceAccount",
+                "callee_method": "setAccountNumber",
+                "sequence": 2
+            },
+            {
+                "caller_class": "MakeTransferIntegrationTest",
+                "caller_method": "givenTransactionDetails_whenMakeTransaction_thenVerifyTransactionIsProcessed",
+                "callee_class": "targetAccount",
+                "callee_method": "setSortCode",
+                "sequence": 3
+            },
+            {
+                "caller_class": "MakeTransferIntegrationTest",
+                "caller_method": "givenTransactionDetails_whenMakeTransaction_thenVerifyTransactionIsProcessed",
+                "callee_class": "targetAccount",
+                "callee_method": "setAccountNumber",
+                "sequence": 4
+            },
+            {
+                "caller_class": "MakeTransferIntegrationTest",
+                "caller_method": "givenTransactionDetails_whenMakeTransaction_thenVerifyTransactionIsProcessed",
+                "callee_class": "input",
+                "callee_method": "setSourceAccount",
+                "sequence": 5
+            },
+            {
+                "caller_class": "MakeTransferIntegrationTest",
+                "caller_method": "givenTransactionDetails_whenMakeTransaction_thenVerifyTransactionIsProcessed",
+                "callee_class": "input",
+                "callee_method": "setTargetAccount",
+                "sequence": 6
+            },
+            {
+                "caller_class": "MakeTransferIntegrationTest",
+                "caller_method": "givenTransactionDetails_whenMakeTransaction_thenVerifyTransactionIsProcessed",
+                "callee_class": "input",
+                "callee_method": "setAmount",
+                "sequence": 7
+            },
+            {
+                "caller_class": "MakeTransferIntegrationTest",
+                "caller_method": "givenTransactionDetails_whenMakeTransaction_thenVerifyTransactionIsProcessed",
+                "callee_class": "input",
+                "callee_method": "setReference",
+                "sequence": 8
+            },
+            {
+                "caller_class": "MakeTransferIntegrationTest",
+                "caller_method": "givenTransactionDetails_whenMakeTransaction_thenVerifyTransactionIsProcessed",
+                "callee_class": "input",
+                "callee_method": "setLatitude",
+                "sequence": 9
+            },
+            {
+                "caller_class": "MakeTransferIntegrationTest",
+                "caller_method": "givenTransactionDetails_whenMakeTransaction_thenVerifyTransactionIsProcessed",
+                "callee_class": "input",
+                "callee_method": "setLongitude",
+                "sequence": 10
+            },
+            {
+                "caller_class": "MakeTransferIntegrationTest",
+                "caller_method": "givenTransactionDetails_whenMakeTransaction_thenVerifyTransactionIsProcessed",
+                "callee_class": "transactionRestController",
+                "callee_method": "makeTransfer",
+                "sequence": 11
+            },
+            {
+                "caller_class": "MakeTransferIntegrationTest",
+                "caller_method": "givenTransactionDetails_whenMakeTransaction_thenVerifyTransactionIsProcessed",
+                "callee_class": "MakeTransferIntegrationTest",
+                "callee_method": "getBody",
+                "sequence": 12
+            },
+            {
+                "caller_class": "MakeTransferIntegrationTest",
+                "caller_method": "givenTransactionDetails_whenMakeTransaction_thenVerifyTransactionIsProcessed",
+                "callee_class": "MakeTransferIntegrationTest",
+                "callee_method": "assertThat",
+                "sequence": 13
+            },
+            {
+                "caller_class": "MakeTransferIntegrationTest",
+                "caller_method": "givenTransactionDetails_whenMakeTransaction_thenVerifyTransactionIsProcessed",
+                "callee_class": "MakeTransferIntegrationTest",
+                "callee_method": "isTrue",
+                "sequence": 14
+            }
+        ],
+        "package": "com.example.paul.integration"
+    },
+    "./cloned_repo\\src\\test\\java\\com\\example\\paul\\unit\\AccountRestControllerTest.java": {
+        "classes": [
+            "AccountRestControllerTest"
+        ],
+        "methods": [
+            {
+                "name": "givenMissingInput_whenCheckingBalance_thenVerifyBadRequest",
+                "class": "AccountRestControllerTest",
+                "signature": "givenMissingInput_whenCheckingBalance_thenVerifyBadRequest()",
+                "return_type": "void"
+            },
+            {
+                "name": "givenInvalidInput_whenCheckingBalance_thenVerifyBadRequest",
+                "class": "AccountRestControllerTest",
+                "signature": "givenInvalidInput_whenCheckingBalance_thenVerifyBadRequest()",
+                "return_type": "void"
+            },
+            {
+                "name": "givenNoAccountForInput_whenCheckingBalance_thenVerifyNoContent",
+                "class": "AccountRestControllerTest",
+                "signature": "givenNoAccountForInput_whenCheckingBalance_thenVerifyNoContent()",
+                "return_type": "void"
+            },
+            {
+                "name": "givenAccountDetails_whenCheckingBalance_thenVerifyOk",
+                "class": "AccountRestControllerTest",
+                "signature": "givenAccountDetails_whenCheckingBalance_thenVerifyOk()",
+                "return_type": "void"
+            }
+        ],
+        "dependencies": [
+            "com.example.paul.controllers.AccountRestController",
+            "com.example.paul.models.Account",
+            "com.example.paul.services.AccountService",
+            "org.junit.jupiter.api.Test",
+            "org.junit.jupiter.api.extension.ExtendWith",
+            "org.springframework.beans.factory.annotation.Autowired",
+            "org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest",
+            "org.springframework.boot.test.mock.mockito.MockBean",
+            "org.springframework.http.MediaType",
+            "org.springframework.test.context.junit.jupiter.SpringExtension",
+            "org.springframework.test.web.servlet.MockMvc",
+            "org.springframework.test.web.servlet.request.MockMvcRequestBuilders",
+            "org.springframework.test.web.servlet.result.MockMvcResultMatchers",
+            "org.mockito.BDDMockito.given"
+        ],
+        "call_graph": [
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenMissingInput_whenCheckingBalance_thenVerifyBadRequest",
+                "callee_class": "mvc",
+                "callee_method": "perform",
+                "sequence": 1
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenMissingInput_whenCheckingBalance_thenVerifyBadRequest",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "andExpect",
+                "sequence": 2
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenMissingInput_whenCheckingBalance_thenVerifyBadRequest",
+                "callee_class": "MockMvcResultMatchers",
+                "callee_method": "status",
+                "sequence": 3
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenMissingInput_whenCheckingBalance_thenVerifyBadRequest",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "isBadRequest",
+                "sequence": 4
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenMissingInput_whenCheckingBalance_thenVerifyBadRequest",
+                "callee_class": "MockMvcRequestBuilders",
+                "callee_method": "post",
+                "sequence": 5
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenMissingInput_whenCheckingBalance_thenVerifyBadRequest",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "contentType",
+                "sequence": 6
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenInvalidInput_whenCheckingBalance_thenVerifyBadRequest",
+                "callee_class": "mvc",
+                "callee_method": "perform",
+                "sequence": 7
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenInvalidInput_whenCheckingBalance_thenVerifyBadRequest",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "andExpect",
+                "sequence": 8
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenInvalidInput_whenCheckingBalance_thenVerifyBadRequest",
+                "callee_class": "MockMvcResultMatchers",
+                "callee_method": "status",
+                "sequence": 9
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenInvalidInput_whenCheckingBalance_thenVerifyBadRequest",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "isBadRequest",
+                "sequence": 10
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenInvalidInput_whenCheckingBalance_thenVerifyBadRequest",
+                "callee_class": "MockMvcRequestBuilders",
+                "callee_method": "post",
+                "sequence": 11
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenInvalidInput_whenCheckingBalance_thenVerifyBadRequest",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "content",
+                "sequence": 12
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenInvalidInput_whenCheckingBalance_thenVerifyBadRequest",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "contentType",
+                "sequence": 13
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenNoAccountForInput_whenCheckingBalance_thenVerifyNoContent",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "given",
+                "sequence": 14
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenNoAccountForInput_whenCheckingBalance_thenVerifyNoContent",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "willReturn",
+                "sequence": 15
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenNoAccountForInput_whenCheckingBalance_thenVerifyNoContent",
+                "callee_class": "accountService",
+                "callee_method": "getAccount",
+                "sequence": 16
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenNoAccountForInput_whenCheckingBalance_thenVerifyNoContent",
+                "callee_class": "mvc",
+                "callee_method": "perform",
+                "sequence": 17
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenNoAccountForInput_whenCheckingBalance_thenVerifyNoContent",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "andExpect",
+                "sequence": 18
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenNoAccountForInput_whenCheckingBalance_thenVerifyNoContent",
+                "callee_class": "MockMvcResultMatchers",
+                "callee_method": "status",
+                "sequence": 19
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenNoAccountForInput_whenCheckingBalance_thenVerifyNoContent",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "isNoContent",
+                "sequence": 20
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenNoAccountForInput_whenCheckingBalance_thenVerifyNoContent",
+                "callee_class": "MockMvcRequestBuilders",
+                "callee_method": "post",
+                "sequence": 21
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenNoAccountForInput_whenCheckingBalance_thenVerifyNoContent",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "content",
+                "sequence": 22
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenNoAccountForInput_whenCheckingBalance_thenVerifyNoContent",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "contentType",
+                "sequence": 23
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyOk",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "given",
+                "sequence": 24
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyOk",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "willReturn",
+                "sequence": 25
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyOk",
+                "callee_class": "accountService",
+                "callee_method": "getAccount",
+                "sequence": 26
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyOk",
+                "callee_class": "mvc",
+                "callee_method": "perform",
+                "sequence": 27
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyOk",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "andExpect",
+                "sequence": 28
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyOk",
+                "callee_class": "MockMvcResultMatchers",
+                "callee_method": "status",
+                "sequence": 29
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyOk",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "isNoContent",
+                "sequence": 30
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyOk",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "andExpect",
+                "sequence": 31
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyOk",
+                "callee_class": "MockMvcResultMatchers",
+                "callee_method": "content",
+                "sequence": 32
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyOk",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "contentTypeCompatibleWith",
+                "sequence": 33
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyOk",
+                "callee_class": "MockMvcRequestBuilders",
+                "callee_method": "post",
+                "sequence": 34
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyOk",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "content",
+                "sequence": 35
+            },
+            {
+                "caller_class": "AccountRestControllerTest",
+                "caller_method": "givenAccountDetails_whenCheckingBalance_thenVerifyOk",
+                "callee_class": "AccountRestControllerTest",
+                "callee_method": "contentType",
+                "sequence": 36
+            }
+        ],
+        "package": "com.example.paul.unit"
+    },
+    "./cloned_repo\\src\\test\\java\\com\\example\\paul\\unit\\TransactionRestControllerTest.java": {
+        "classes": [
+            "TransactionRestControllerTest"
+        ],
+        "methods": [
+            {
+                "name": "givenMissingInput_whenMakeTransfer_thenVerifyBadRequest",
+                "class": "TransactionRestControllerTest",
+                "signature": "givenMissingInput_whenMakeTransfer_thenVerifyBadRequest()",
+                "return_type": "void"
+            },
+            {
+                "name": "givenInvalidInput_whenMakeTransfer_thenVerifyBadRequest",
+                "class": "TransactionRestControllerTest",
+                "signature": "givenInvalidInput_whenMakeTransfer_thenVerifyBadRequest()",
+                "return_type": "void"
+            },
+            {
+                "name": "givenNoAccountForInput_whenMakeTransfer_thenVerifyOk",
+                "class": "TransactionRestControllerTest",
+                "signature": "givenNoAccountForInput_whenMakeTransfer_thenVerifyOk()",
+                "return_type": "void"
+            }
+        ],
+        "dependencies": [
+            "com.example.paul.controllers.TransactionRestController",
+            "com.example.paul.services.TransactionService",
+            "org.junit.jupiter.api.Test",
+            "org.junit.jupiter.api.extension.ExtendWith",
+            "org.springframework.beans.factory.annotation.Autowired",
+            "org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest",
+            "org.springframework.boot.test.mock.mockito.MockBean",
+            "org.springframework.http.MediaType",
+            "org.springframework.test.context.junit.jupiter.SpringExtension",
+            "org.springframework.test.web.servlet.MockMvc",
+            "org.springframework.test.web.servlet.request.MockMvcRequestBuilders",
+            "org.springframework.test.web.servlet.result.MockMvcResultMatchers"
+        ],
+        "call_graph": [
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenMissingInput_whenMakeTransfer_thenVerifyBadRequest",
+                "callee_class": "mvc",
+                "callee_method": "perform",
+                "sequence": 1
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenMissingInput_whenMakeTransfer_thenVerifyBadRequest",
+                "callee_class": "TransactionRestControllerTest",
+                "callee_method": "andExpect",
+                "sequence": 2
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenMissingInput_whenMakeTransfer_thenVerifyBadRequest",
+                "callee_class": "MockMvcResultMatchers",
+                "callee_method": "status",
+                "sequence": 3
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenMissingInput_whenMakeTransfer_thenVerifyBadRequest",
+                "callee_class": "TransactionRestControllerTest",
+                "callee_method": "isBadRequest",
+                "sequence": 4
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenMissingInput_whenMakeTransfer_thenVerifyBadRequest",
+                "callee_class": "MockMvcRequestBuilders",
+                "callee_method": "post",
+                "sequence": 5
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenMissingInput_whenMakeTransfer_thenVerifyBadRequest",
+                "callee_class": "TransactionRestControllerTest",
+                "callee_method": "contentType",
+                "sequence": 6
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenInvalidInput_whenMakeTransfer_thenVerifyBadRequest",
+                "callee_class": "mvc",
+                "callee_method": "perform",
+                "sequence": 7
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenInvalidInput_whenMakeTransfer_thenVerifyBadRequest",
+                "callee_class": "TransactionRestControllerTest",
+                "callee_method": "andExpect",
+                "sequence": 8
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenInvalidInput_whenMakeTransfer_thenVerifyBadRequest",
+                "callee_class": "MockMvcResultMatchers",
+                "callee_method": "status",
+                "sequence": 9
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenInvalidInput_whenMakeTransfer_thenVerifyBadRequest",
+                "callee_class": "TransactionRestControllerTest",
+                "callee_method": "isBadRequest",
+                "sequence": 10
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenInvalidInput_whenMakeTransfer_thenVerifyBadRequest",
+                "callee_class": "MockMvcRequestBuilders",
+                "callee_method": "post",
+                "sequence": 11
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenInvalidInput_whenMakeTransfer_thenVerifyBadRequest",
+                "callee_class": "TransactionRestControllerTest",
+                "callee_method": "content",
+                "sequence": 12
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenInvalidInput_whenMakeTransfer_thenVerifyBadRequest",
+                "callee_class": "TransactionRestControllerTest",
+                "callee_method": "contentType",
+                "sequence": 13
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenNoAccountForInput_whenMakeTransfer_thenVerifyOk",
+                "callee_class": "mvc",
+                "callee_method": "perform",
+                "sequence": 14
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenNoAccountForInput_whenMakeTransfer_thenVerifyOk",
+                "callee_class": "TransactionRestControllerTest",
+                "callee_method": "andExpect",
+                "sequence": 15
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenNoAccountForInput_whenMakeTransfer_thenVerifyOk",
+                "callee_class": "MockMvcResultMatchers",
+                "callee_method": "status",
+                "sequence": 16
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenNoAccountForInput_whenMakeTransfer_thenVerifyOk",
+                "callee_class": "TransactionRestControllerTest",
+                "callee_method": "isOk",
+                "sequence": 17
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenNoAccountForInput_whenMakeTransfer_thenVerifyOk",
+                "callee_class": "MockMvcRequestBuilders",
+                "callee_method": "post",
+                "sequence": 18
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenNoAccountForInput_whenMakeTransfer_thenVerifyOk",
+                "callee_class": "TransactionRestControllerTest",
+                "callee_method": "content",
+                "sequence": 19
+            },
+            {
+                "caller_class": "TransactionRestControllerTest",
+                "caller_method": "givenNoAccountForInput_whenMakeTransfer_thenVerifyOk",
+                "callee_class": "TransactionRestControllerTest",
+                "callee_method": "contentType",
+                "sequence": 20
+            }
+        ],
+        "package": "com.example.paul.unit"
+    },
+    "./cloned_repo\\src\\test\\java\\com\\example\\paul\\unit\\AccountServiceTest.java": {
+        "classes": [
+            "AccountServiceTest"
+        ],
+        "methods": [
+            {
+                "name": "setUp",
+                "class": "AccountServiceTest",
+                "signature": "setUp()",
+                "return_type": "void"
+            },
+            {
+                "name": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "class": "AccountServiceTest",
+                "signature": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent()",
+                "return_type": "void"
+            },
+            {
+                "name": "shouldReturnTransactionsForAccount",
+                "class": "AccountServiceTest",
+                "signature": "shouldReturnTransactionsForAccount()",
+                "return_type": "void"
+            },
+            {
+                "name": "shouldReturnNullWhenAccountBySortCodeAndAccountNotFound",
+                "class": "AccountServiceTest",
+                "signature": "shouldReturnNullWhenAccountBySortCodeAndAccountNotFound()",
+                "return_type": "void"
+            },
+            {
+                "name": "shouldReturnAccountByAccountNumberWhenPresent",
+                "class": "AccountServiceTest",
+                "signature": "shouldReturnAccountByAccountNumberWhenPresent()",
+                "return_type": "void"
+            },
+            {
+                "name": "shouldReturnNullWhenAccountByAccountNotFound",
+                "class": "AccountServiceTest",
+                "signature": "shouldReturnNullWhenAccountByAccountNotFound()",
+                "return_type": "void"
+            },
+            {
+                "name": "shouldCreateAccount",
+                "class": "AccountServiceTest",
+                "signature": "shouldCreateAccount()",
+                "return_type": "void"
+            }
+        ],
+        "dependencies": [
+            "com.example.paul.models.Account",
+            "com.example.paul.models.Transaction",
+            "com.example.paul.repositories.AccountRepository",
+            "com.example.paul.repositories.TransactionRepository",
+            "com.example.paul.services.AccountService",
+            "org.junit.jupiter.api.BeforeEach",
+            "org.junit.jupiter.api.Test",
+            "org.junit.jupiter.api.extension.ExtendWith",
+            "org.mockito.Mock",
+            "org.mockito.junit.jupiter.MockitoExtension",
+            "org.assertj.core.api.Assertions.assertThat",
+            "org.mockito.Mockito.when"
+        ],
+        "call_graph": [
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "when",
+                "sequence": 1
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "thenReturn",
+                "sequence": 2
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "callee_class": "Optional",
+                "callee_method": "of",
+                "sequence": 3
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "callee_class": "accountRepository",
+                "callee_method": "findBySortCodeAndAccountNumber",
+                "sequence": 4
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "callee_class": "underTest",
+                "callee_method": "getAccount",
+                "sequence": 5
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "assertThat",
+                "sequence": 6
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "isEqualTo",
+                "sequence": 7
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "callee_class": "account",
+                "callee_method": "getOwnerName",
+                "sequence": 8
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "callee_class": "result",
+                "callee_method": "getOwnerName",
+                "sequence": 9
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "assertThat",
+                "sequence": 10
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "isEqualTo",
+                "sequence": 11
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "callee_class": "account",
+                "callee_method": "getSortCode",
+                "sequence": 12
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "callee_class": "result",
+                "callee_method": "getSortCode",
+                "sequence": 13
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "assertThat",
+                "sequence": 14
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "isEqualTo",
+                "sequence": 15
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "callee_class": "account",
+                "callee_method": "getAccountNumber",
+                "sequence": 16
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnAccountBySortCodeAndAccountNumberWhenPresent",
+                "callee_class": "result",
+                "callee_method": "getAccountNumber",
+                "sequence": 17
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "when",
+                "sequence": 18
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "thenReturn",
+                "sequence": 19
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "Optional",
+                "callee_method": "of",
+                "sequence": 20
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "accountRepository",
+                "callee_method": "findBySortCodeAndAccountNumber",
+                "sequence": 21
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "transaction1",
+                "callee_method": "setReference",
+                "sequence": 22
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "transaction2",
+                "callee_method": "setReference",
+                "sequence": 23
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "when",
+                "sequence": 24
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "thenReturn",
+                "sequence": 25
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "List",
+                "callee_method": "of",
+                "sequence": 26
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "transactionRepository",
+                "callee_method": "findBySourceAccountIdOrderByInitiationDate",
+                "sequence": 27
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "account",
+                "callee_method": "getId",
+                "sequence": 28
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "underTest",
+                "callee_method": "getAccount",
+                "sequence": 29
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "assertThat",
+                "sequence": 30
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "hasSize",
+                "sequence": 31
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "result",
+                "callee_method": "getTransactions",
+                "sequence": 32
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "assertThat",
+                "sequence": 33
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "extracting",
+                "sequence": 34
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "containsExactly",
+                "sequence": 35
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnTransactionsForAccount",
+                "callee_class": "result",
+                "callee_method": "getTransactions",
+                "sequence": 36
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnNullWhenAccountBySortCodeAndAccountNotFound",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "when",
+                "sequence": 37
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnNullWhenAccountBySortCodeAndAccountNotFound",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "thenReturn",
+                "sequence": 38
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnNullWhenAccountBySortCodeAndAccountNotFound",
+                "callee_class": "Optional",
+                "callee_method": "empty",
+                "sequence": 39
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnNullWhenAccountBySortCodeAndAccountNotFound",
+                "callee_class": "accountRepository",
+                "callee_method": "findBySortCodeAndAccountNumber",
+                "sequence": 40
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnNullWhenAccountBySortCodeAndAccountNotFound",
+                "callee_class": "underTest",
+                "callee_method": "getAccount",
+                "sequence": 41
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnNullWhenAccountBySortCodeAndAccountNotFound",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "assertThat",
+                "sequence": 42
+            },
+            {
+                "caller_class": "AccountServiceTest",
+                "caller_method": "shouldReturnNullWhenAccountBySortCodeAndAccountNotFound",
+                "callee_class": "AccountServiceTest",
+                "callee_method": "isNull",
+                "sequence": 43
+            }
+        ],
+        "package": "com.example.paul.unit"
+    },
+    "./cloned_repo\\src\\test\\java\\com\\example\\paul\\unit\\TransactionServiceTest.java": {
+        "classes": [
+            "TransactionServiceTest",
+            "TransactionServiceTestContextConfiguration"
+        ],
+        "methods": [
+            {
+                "name": "transactionService",
+                "class": "TransactionServiceTest",
+                "signature": "transactionService()",
+                "return_type": "ReferenceType(arguments=None, dimensions=[], name=TransactionService, sub_type=None)"
+            },
+            {
+                "name": "setUp",
+                "class": "TransactionServiceTest",
+                "signature": "setUp()",
+                "return_type": "void"
+            },
+            {
+                "name": "whenTransactionDetails_thenTransferShouldBeDenied",
+                "class": "TransactionServiceTest",
+                "signature": "whenTransactionDetails_thenTransferShouldBeDenied()",
+                "return_type": "void"
+            },
+            {
+                "name": "whenTransactionDetailsAndAmountTooLarge_thenTransferShouldBeDenied",
+                "class": "TransactionServiceTest",
+                "signature": "whenTransactionDetailsAndAmountTooLarge_thenTransferShouldBeDenied()",
+                "return_type": "void"
+            }
+        ],
+        "dependencies": [
+            "com.example.paul.models.Account",
+            "com.example.paul.repositories.AccountRepository",
+            "com.example.paul.repositories.TransactionRepository",
+            "com.example.paul.services.TransactionService",
+            "com.example.paul.utils.AccountInput",
+            "com.example.paul.utils.TransactionInput",
+            "org.junit.jupiter.api.BeforeEach",
+            "org.junit.jupiter.api.Test",
+            "org.junit.jupiter.api.extension.ExtendWith",
+            "org.springframework.beans.factory.annotation.Autowired",
+            "org.springframework.boot.test.context.TestConfiguration",
+            "org.springframework.boot.test.mock.mockito.MockBean",
+            "org.springframework.context.annotation.Bean",
+            "org.springframework.test.context.junit.jupiter.SpringExtension",
+            "org.assertj.core.api.Assertions.assertThat",
+            "org.mockito.Mockito.when"
+        ],
+        "call_graph": [
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "setUp",
+                "callee_class": "TransactionServiceTest",
+                "callee_method": "when",
+                "sequence": 1
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "setUp",
+                "callee_class": "TransactionServiceTest",
+                "callee_method": "thenReturn",
+                "sequence": 2
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "setUp",
+                "callee_class": "Optional",
+                "callee_method": "of",
+                "sequence": 3
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "setUp",
+                "callee_class": "accountRepository",
+                "callee_method": "findBySortCodeAndAccountNumber",
+                "sequence": 4
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "setUp",
+                "callee_class": "TransactionServiceTest",
+                "callee_method": "when",
+                "sequence": 5
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "setUp",
+                "callee_class": "TransactionServiceTest",
+                "callee_method": "thenReturn",
+                "sequence": 6
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "setUp",
+                "callee_class": "Optional",
+                "callee_method": "of",
+                "sequence": 7
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "setUp",
+                "callee_class": "accountRepository",
+                "callee_method": "findBySortCodeAndAccountNumber",
+                "sequence": 8
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetails_thenTransferShouldBeDenied",
+                "callee_class": "sourceAccount",
+                "callee_method": "setSortCode",
+                "sequence": 9
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetails_thenTransferShouldBeDenied",
+                "callee_class": "sourceAccount",
+                "callee_method": "setAccountNumber",
+                "sequence": 10
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetails_thenTransferShouldBeDenied",
+                "callee_class": "targetAccount",
+                "callee_method": "setSortCode",
+                "sequence": 11
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetails_thenTransferShouldBeDenied",
+                "callee_class": "targetAccount",
+                "callee_method": "setAccountNumber",
+                "sequence": 12
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetails_thenTransferShouldBeDenied",
+                "callee_class": "input",
+                "callee_method": "setSourceAccount",
+                "sequence": 13
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetails_thenTransferShouldBeDenied",
+                "callee_class": "input",
+                "callee_method": "setTargetAccount",
+                "sequence": 14
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetails_thenTransferShouldBeDenied",
+                "callee_class": "input",
+                "callee_method": "setAmount",
+                "sequence": 15
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetails_thenTransferShouldBeDenied",
+                "callee_class": "input",
+                "callee_method": "setReference",
+                "sequence": 16
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetails_thenTransferShouldBeDenied",
+                "callee_class": "transactionService",
+                "callee_method": "makeTransfer",
+                "sequence": 17
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetails_thenTransferShouldBeDenied",
+                "callee_class": "TransactionServiceTest",
+                "callee_method": "assertThat",
+                "sequence": 18
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetails_thenTransferShouldBeDenied",
+                "callee_class": "TransactionServiceTest",
+                "callee_method": "isTrue",
+                "sequence": 19
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetailsAndAmountTooLarge_thenTransferShouldBeDenied",
+                "callee_class": "sourceAccount",
+                "callee_method": "setSortCode",
+                "sequence": 20
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetailsAndAmountTooLarge_thenTransferShouldBeDenied",
+                "callee_class": "sourceAccount",
+                "callee_method": "setAccountNumber",
+                "sequence": 21
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetailsAndAmountTooLarge_thenTransferShouldBeDenied",
+                "callee_class": "targetAccount",
+                "callee_method": "setSortCode",
+                "sequence": 22
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetailsAndAmountTooLarge_thenTransferShouldBeDenied",
+                "callee_class": "targetAccount",
+                "callee_method": "setAccountNumber",
+                "sequence": 23
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetailsAndAmountTooLarge_thenTransferShouldBeDenied",
+                "callee_class": "input",
+                "callee_method": "setSourceAccount",
+                "sequence": 24
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetailsAndAmountTooLarge_thenTransferShouldBeDenied",
+                "callee_class": "input",
+                "callee_method": "setTargetAccount",
+                "sequence": 25
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetailsAndAmountTooLarge_thenTransferShouldBeDenied",
+                "callee_class": "input",
+                "callee_method": "setAmount",
+                "sequence": 26
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetailsAndAmountTooLarge_thenTransferShouldBeDenied",
+                "callee_class": "input",
+                "callee_method": "setReference",
+                "sequence": 27
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetailsAndAmountTooLarge_thenTransferShouldBeDenied",
+                "callee_class": "transactionService",
+                "callee_method": "makeTransfer",
+                "sequence": 28
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetailsAndAmountTooLarge_thenTransferShouldBeDenied",
+                "callee_class": "TransactionServiceTest",
+                "callee_method": "assertThat",
+                "sequence": 29
+            },
+            {
+                "caller_class": "TransactionServiceTest",
+                "caller_method": "whenTransactionDetailsAndAmountTooLarge_thenTransferShouldBeDenied",
+                "callee_class": "TransactionServiceTest",
+                "callee_method": "isFalse",
+                "sequence": 30
+            }
+        ],
+        "package": "com.example.paul.unit"
+    }
+}
